@@ -23,3 +23,4 @@ dependencyResolutionManagement {
 rootProject.name = "My Application2"
 include(":app")
 include(":shared")
+include(":server")
