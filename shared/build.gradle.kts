@@ -12,15 +12,6 @@ kotlin {
     }
 }
 
-//plugins {
-//    kotlin("jvm")
-//    kotlin("plugin.serialization") version "1.9.0"
-//}
-//
-//repositories {
-//    mavenCentral()
-//}
-
 dependencies {
     implementation("io.ktor:ktor-client-core:2.3.2")
     implementation("io.ktor:ktor-client-okhttp:2.3.2")
