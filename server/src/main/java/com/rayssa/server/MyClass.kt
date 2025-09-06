@@ -1,4 +1,4 @@
-package com.performance.server  // esse package precisa bater com sua estrutura de pastas
+package com.performance.server
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
