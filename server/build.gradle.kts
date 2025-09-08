@@ -12,12 +12,11 @@ java {
 
 dependencies {
     implementation("org.springframework.boot:spring-boot-starter-web")
-    implementation("org.springframework.boot:spring-boot-starter-webflux")
-    implementation("org.springframework.boot:spring-boot-starter-security")
-    implementation("org.springframework.boot:spring-boot-starter-validation")
-    implementation("io.projectreactor.kotlin:reactor-kotlin-extensions")
-
+    implementation("ch.qos.logback:logback-classic:1.4.11")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation("com.jakewharton.retrofit:retrofit2-kotlinx-serialization-converter:0.8.0")
+    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.7.0")
 }
 
 configurations.all {
